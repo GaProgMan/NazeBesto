@@ -1,0 +1,43 @@
+% The document contains a translation of the following title:
+% 「上田次郎のなぜベストを尽くさないのァ？」
+% ISBN:978-4-05-402528-8
+% Date of publishing: July 2004
+% Number of pages: ~192
+
+\documentclass[11pt, a4paper, twoside]{report}
+
+% Including the package "epigraph" this will allow quotes to be added at the begining of each chapter or section.
+\usepackage{epigraph}
+
+% The following two usepackage statements MUST be included for the Japanese text found in places throughout this document to parse correctly
+\usepackage{CJKutf8}
+\usepackage[overlap]{ruby}
+
+% The following packageenables LaTeX to include hyperlinks in the compiled document
+\usepackage{url}
+
+% Including following package enables the contents of non-TeX text files to be added to the compiled document
+\usepackage{listings}
+
+\begin{document}
+
+% Tell LaTeX that we'll be using Chinese, Japanese and Korean characters in the following document and that it should be prepared for them
+\begin{CJK}{UTF8}{min}
+
+\title{Why Don't You Do Your Best?\\なぜベストを\ruby{尽}{つ}くさないのか}
+\author{Jamie Taylor (Translation)\\ Ueda Jiro (Original)}
+\maketitle
+
+% Put the contents of the file Preface.TeX here
+\input{Preface}
+\input{ANote}
+
+% Add a table of contents to the compiled document
+\tableofcontents
+
+
+% TODO: Add the contents of each chapter here
+
+\end{CJK}
+
+\end{document}
