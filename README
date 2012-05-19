@@ -1,2 +1,76 @@
-TO DO:
-	Add contents to readme file
+Project Name:			NazeBesto
+Original creation date:		19/05/2012
+Programmer name:		Jamie Taylor (aka "GaProgMan")
+
+File names/Directory listing:	README
+				ANote.tex
+				Cast and Character Names.jce
+				Front Page Notes.jce
+				Naze.tex
+				Preface.tex
+
+Purpose of the project:		I had recently purchased a copy of the Japanese
+				book called なぜベストを尽くさないのか (refered
+				to as "Naze Besto") and wanted to translate it,
+				both for myself and for others to read.
+							The translation will be
+				typed as a TeX document and distributed free of
+				charge. However, I will retain attribution
+				rights for the translation of the text.
+							This translation is not
+				intended as a copyright infringement in anyway.
+				It is simply being provided for those who wish
+				to read the book, but don't have the language
+				skills to read the original Japanese text.
+							This project will give
+				me a perfect opportunity to extend and build on
+				my own Japanese language skills.
+							As this is a project that
+				I will be completing in my own free time, and the
+				first translation project I have ever undertaken
+				on this scale (a whole 200 page book) the updates
+				to it might come sporadically at first.
+							To compile this document,
+				you will need a (La)TeX environment, with access
+				to the following packages:
+					* CJK
+					* url
+					* epigraph
+							I would recommend both
+				the TexWorks and TexLive programs for compilation,
+				as they are free and available for most Operating
+				Systems.
+
+License used:				GNU GPL v3 (details follow)
+
+		GNU Copyright information
+		Copyright 2012 Jamie Taylor <seppydude@gmail.com>
+
+		This program is free software; you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation; either version 2 of the License, or
+		(at your option) any later version.
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with this program; if not, write to the Free Software
+		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+		MA 02110-1301, USA.
+
+Changelog:
+		2012-05-18	Jamie Taylor (seppydude@gmail.com)
+
+			* Initial creation of project
+
+			Preface and Note section written  (Preface and ANote.tex)
+			Document layout created		  (Naze.text)	
+
+		2012-05-19	Jamie Taylor (seppydude@gmail.com)
+
+			* Initial commit to GitHub as test repo
+
+			Added project and README files to repo
