@@ -122,3 +122,11 @@ Changelog:
 
 			README now includes an updated version of
 			the licence used for this repo (GNU GLP 3)
+
+		2012-26-06	Jamie Taylor (seppydude@gmail.com)
+
+			* Moved transaltion notes to dedicated folder
+
+			JWPce files that provide translation notes
+			have been moved to their own folder
+			(TranslationNotes)
