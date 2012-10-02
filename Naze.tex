@@ -3,7 +3,7 @@
 % ISBN:978-4-05-402528-8
 % Date of publishing: July 2004
 % Number of pages: ~192
-% Translation by Jamie Taylor (seppydude@gmail.com) 2012
+% Translation by Jamie Taylor (jamie@taylorj.org.uk) 2012
 
 \documentclass[11pt, a4paper, twoside]{report}
 
@@ -14,11 +14,17 @@
 \usepackage{CJKutf8}
 \usepackage[overlap]{ruby}
 
-% The following packageenables LaTeX to include hyperlinks in the compiled document
+% The following package enables LaTeX to include hyperlinks in the compiled document
 \usepackage{url}
 
 % Including following package enables the contents of non-TeX text files to be added to the compiled document
 \usepackage{listings}
+
+%%% pdfstartview=Fitforces the outputted pdf to open in a "fit
+%%% to windows" zoom level.
+%%% hidelinks tells pdflatex to NOT draw borders around any and
+%%% all links in the compiled document
+\usepackage[pdfstartview=Fit, hidelinks]{hyperref}
 
 \begin{document}
 
@@ -26,7 +32,7 @@
 \begin{CJK}{UTF8}{min}
 
 \title{Why Don't You Do Your Best?\\なぜベストを\ruby{尽}{つ}くさないのか}
-\author{Jamie Taylor (Translation)\\ Ueda Jiro (Original)}
+\author{Ueda Jiro (Original)\\Jamie Taylor (Translation)}
 \maketitle
 
 % Put the contents of the file Preface.TeX here
