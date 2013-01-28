@@ -1,0 +1,5 @@
+\contentsline {subsubsection}{Legal Disclaimer}{1}{section*.2}
+\contentsline {subsubsection}{Licence Details}{1}{section*.3}
+\contentsline {subsubsection}{Japanese Text}{1}{section*.4}
+\contentsline {subsubsection}{Reasons for Translating This Book}{2}{section*.6}
+\contentsline {subsubsection}{Who Are All These People?}{2}{section*.7}

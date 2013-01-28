@@ -50,7 +50,7 @@
 % are adapted from the following URL:
 % http://latex-my.blogspot.co.uk/2010/06/cjk-support-in-latex.html
 
-%% By decreasing the \rubysep value, the Ruby characters will
+% By decreasing the \rubysep value, the Ruby characters will
 % be placed further away from the characters they are above,
 % making them easier to read
 \renewcommand\rubysep{-0.1ex}
@@ -62,12 +62,9 @@
 % Inform TeX to parse the contents of each of the following
 % files (preface, notes, etc.), placing their contents
 % (sequentially) here
-\input{Preface}
-\input{ANote}
-
-% Add a table of contents to the compiled document
-\tableofcontents
-\input{Introduction}
+\input{Preface}										% Legal stuff
+\input{ANote}										% Short note from the author
+\input{Translation}									% Contains the translation
 
 
 % TODO: Add the contents of each chapter here
