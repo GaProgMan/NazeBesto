@@ -76,57 +76,46 @@ Basic meaning of licence:
 		distribute.
 
 Changelog:
-		2012-05-18	Jamie Taylor (seppydude@gmail.com)
+2013-04-06  Jamie Taylor  <seppydude@gmail.com>
 
-			* Initial creation of project
+    * ANote.tex: Changed epigraph - now a quote from Jeff Bridges
+    * Preface.tex: Change subsubsections for sections
+    * ANote.tex: Change subsubsections for sections
+    * 00-Preface.tex: Added chapter for translated Preface
+    * Translation.tex: Included new transalted preface chapter
+    * Changelog: Created new changelog for project
 
-			Preface and Note section written  (Preface and ANote.tex)
-			Document layout created		  (Naze.text)	
+2012-26-06	Jamie Taylor (seppydude@gmail.com)
 
-		2012-05-19	Jamie Taylor (seppydude@gmail.com)
+    * TranslationNotes (directory): Moved translation notes to dedicated folder JWPce files that provide translation notes have been moved to their own folder
 
-			* Initial commit to GitHub as test repo
+2012-21-06	Jamie Taylor (seppydude@gmail.com)
 
-			Added project and README files to repo
+    * Updated copyright information in readme: README now includes an updated version of the licence used for this repo (GNU GLP 3)
 
-		2012-23-05	Jamie Taylor (seppydude@gmail.com)
+2012-20-06	Jamie Taylor (seppydude@gmail.com)
 
-			* Added notes for Introduction
+    * Added basic wiki page
+    * A basic wiki page for the project/repo has been added. This will be re-implemented and redesigned when I get a chance.
 
-			Translation notes for the Front page and
-			Introduction chapter have been added
-			to the master branch of the repo
-							   (Introduction Notes.jce)
-							   (Front Page Notes.jce)
+2012-25-05	Jamie Taylor (seppydude@gmail.com)
 
-		2012-25-05	Jamie Taylor (seppydude@gmail.com)
+    * Added new notes for Introduction
+    * Translation notes for the introduction added, now contains the entire Introduction chapter, with kanji notes (Introduction Notes.jce)
 
-			* Added new notes for Introduction
+2012-23-05	Jamie Taylor (seppydude@gmail.com)
 
-			Translation notes for the introduction
-			added, now contains the entire Introduction
-			chapter, with kanji notes
-							(Introduction Notes.jce)
+    * Added notes for Introduction
+    * Translation notes for the Front page and Introduction chapter have been added to the master branch of the repo (Introduction Notes.jce and Front Page Notes.jce)
 
-		2012-20-06	Jamie Taylor (seppydude@gmail.com)
+2012-05-19	Jamie Taylor (seppydude@gmail.com)
 
-			* Added basic wiki page
+    * Initial commit to GitHub as test repo
+    * Added project and README files to repo
 
-			A basic wiki page for the project/repo has
-			been added. This will be re-implemented and
-			redesigned when I get a chance.
+2012-05-18	Jamie Taylor (seppydude@gmail.com)
 
-		2012-21-06	Jamie Taylor (seppydude@gmail.com)
-
-			* Updated copyright information in readme
-
-			README now includes an updated version of
-			the licence used for this repo (GNU GLP 3)
-
-		2012-26-06	Jamie Taylor (seppydude@gmail.com)
-
-			* Moved translation notes to dedicated folder
-
-			JWPce files that provide translation notes
-			have been moved to their own folder
-			(TranslationNotes)
+    * Initial creation of project
+    * Preface.tex: Preface section written 
+	* ANote.tex: Translator's notes section written
+    * Naze.tex: document layout created
