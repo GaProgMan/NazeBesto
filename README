@@ -87,26 +87,32 @@ Changelog:
 
 2012-26-06	Jamie Taylor (seppydude@gmail.com)
 
-    * TranslationNotes (directory): Moved translation notes to dedicated folder JWPce files that provide translation notes have been moved to their own folder
+    * TranslationNotes (directory): Moved translation notes to dedicated folder
+      JWPce files that provide translation notes have been moved to their own folder
 
 2012-21-06	Jamie Taylor (seppydude@gmail.com)
 
-    * Updated copyright information in readme: README now includes an updated version of the licence used for this repo (GNU GLP 3)
+    * Updated copyright information in readme: README now includes an updated
+      version of the licence used for this repo (GNU GLP 3)
 
 2012-20-06	Jamie Taylor (seppydude@gmail.com)
 
     * Added basic wiki page
-    * A basic wiki page for the project/repo has been added. This will be re-implemented and redesigned when I get a chance.
+    * A basic wiki page for the project/repo has been added. This will be
+      re-implemented and redesigned when I get a chance.
 
 2012-25-05	Jamie Taylor (seppydude@gmail.com)
 
     * Added new notes for Introduction
-    * Translation notes for the introduction added, now contains the entire Introduction chapter, with kanji notes (Introduction Notes.jce)
+    * Translation notes for the introduction added, now contains the entire
+      Introduction chapter, with kanji notes (Introduction Notes.jce)
 
 2012-23-05	Jamie Taylor (seppydude@gmail.com)
 
     * Added notes for Introduction
-    * Translation notes for the Front page and Introduction chapter have been added to the master branch of the repo (Introduction Notes.jce and Front Page Notes.jce)
+    * Translation notes for the Front page and Introduction chapter have been
+      added to the master branch of the repo (Introduction Notes.jce and Front
+      Page Notes.jce)
 
 2012-05-19	Jamie Taylor (seppydude@gmail.com)
 
@@ -117,5 +123,5 @@ Changelog:
 
     * Initial creation of project
     * Preface.tex: Preface section written 
-	* ANote.tex: Translator's notes section written
+    * ANote.tex: Translator's notes section written
     * Naze.tex: document layout created
