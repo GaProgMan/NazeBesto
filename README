@@ -79,6 +79,9 @@ Changelog:
 2013-04-21  Jamie Taylor  <seppydude@gmail.com>
 
     * Chapter 1 Notes: Added notes for chapter 1 translation
+    * 01-Intro.tex: Added file that will contain the translation for chapter 1's intro
+    * 00-Preface.tex: Removed section that contained specific information on different readings of Kanji (kunyomi, etc.)
+    * 00-Preface.tex: Added section covering some of the conventions used throughout the translated book
 
 2013-04-06  Jamie Taylor  <seppydude@gmail.com>
 
