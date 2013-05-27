@@ -1,5 +1,4 @@
-# Project Name #
-NazeBesto
+# NazeBesto #
 
 ### Original creation date ###
 19/05/2012
