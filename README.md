@@ -4,7 +4,7 @@
 19/05/2012
 
 ### Lead Programmer ###
-Jamie Taylor (aka "GaProgMan")
+Jamie 'GaProgMan' Taylor
 
 ## Purpose of the project##
   I had recently purchased a copy of the Japanese book called なぜベストを尽くさないのか (refered to as "Naze Besto") and wanted to translate it, both for myself and for others to read.
