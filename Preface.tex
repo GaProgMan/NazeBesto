@@ -4,6 +4,28 @@
 % Number of pages: ~192
 % Translation by Jamie Taylor (jamie@gaprogman.com) 2015
 
+% Enables us to use a custom heading format for our pages
+\pagestyle{fancy}
+
+% Each page will have the page number in the upper-left
+% and the section or chapter name in the upper-right.
+% The header will be underlined
+\renewcommand{\chaptermark}[1]{%
+\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{%
+\markright{\thesection\ #1}}
+\fancyhf{} % delete current header and footer
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt} % space for the rule
+\fancypagestyle{plain}{%
+\fancyhead{} % get rid of headers on plain pages
+\renewcommand{\headrulewidth}{0pt} % and the line
+}
+
 \setcounter{footnote}{0}
 \setcounter{endnote}{0}
 
@@ -13,7 +35,7 @@
 \epigraph{``Begin at the beginning," the King said gravely, ``and go on till you come to the end: then stop."}{--- \textup{Lewis Carroll}, Alice in Wonderland}
 
 \section*{Legal Disclaimer}
-This work is a translation of a copyrighted book. It is provided ``as-is'' and no copyright infringement was intended by the author. If you enjoy reading this translation, then please buy the original book. Performing a web search for the ISBN for the original book (4-05-402528-5) will yield a plethora of stores that sell physical copies of this book.
+This work is a translation of a copyrighted book. It is provided ``as-is'' and no copyright infringement was intended by the author. If you enjoy reading this translation, then please buy the original book. Performing a web search for the ISBN for the original book (4-05-402528-5) should reveal a number of ways to legitimately purchase this book.
 
 \par The file(s) provided in this e-book (or the source code which are compiled into this e-book) are provided as an educational source only. No copyright infringement was intended by the creation, compilation or distribution of these files.
 
@@ -23,12 +45,19 @@ This work is a translation of a copyrighted book. It is provided ``as-is'' and n
 \input{licence.tex}
 
 \section*{Japanese Text}
-This document will contain some Japanese characters - either in the footnotes or translation notes that are provided. If you have been able to open the document, then your PDF reader should be able to display them without any problems. However, if you find that there are sections of garbled characters, then you might need to install Asian character support for your reader.
+This document will contain some Japanese characters -- either in the footnotes or translation notes that are provided. If you have been able to open the document, then your PDF reader should be able to display them without any problems. However, if you find that there are sections of garbled characters, then you might need to install Asian character support for your document reader.
 
-\par Most kanji\endnote{Kanji are Chinese characters used in written Japanese. The translation of Kanji is ``Chinese Characters''} characters in this translation have ruby text\endnote{Ruby Text is the text placed near to a character to aid in phonetic pronunciation. More information on Ruby Text can be found here: \url{http://en.wikipedia.org/wiki/Ruby_text}} placed above them to aid the reader in the correct phonetic reading of the characters for the context in the given sentence.
+\par The Japanese characters included in this book will mostly be Character or Place names, or epitaphs. Character and Place names are primarily made of Kanji\endnote{Kanji are Chinese characters used in written Japanese. The translation of Kanji is ``Chinese Characters''}, and any use of Kanji have Ruby Text\endnote{Ruby Text is the text placed near to a character to aid in phonetic pronunciation. More information on Ruby Text can be found here: \url{http://en.wikipedia.org/wiki/Ruby_text}} placed near them to aid those who can read Japanese script with correct pronunciation. Readings in Latin characters will also be provided in parenthesis, following the Ruby Text.
 
 \section*{Conventions Used}
 Each chapter in the original book begins with a quote from the writer. This convention will be retained, but the quotes will be translated.
 \par Footnotes will be supplied, where useful, to provide more information on a given sentence of phrase. These are provided in the hopes of giving a more fuller feel to the translation. Japanese is a language that does not translate fully to other languages, as there are nuances of meaning that are untranslatable, these nuances are expanded upon in the footnotes.
+\par One thing to note is that the original book contains some very silly illustrations and some photographs of the cast members. These illustrations and images will not be provided in this compiled form of the book for copyright reasons.
+\par Instances of Character or Place names (outside of this preface) will be presented in Latin characters. However, here are two examples of names (taken from the following section):
+\begin{itemize}
+	\item \ruby{阿}{あ}\ruby{部}{べ}\ruby{寛}{ひろし} (Abe Hiroshi)
+	\item \ruby{仲}{なか}\ruby{間}{ま}\ruby{由}{ゆ}\ruby{紀}{き}\ruby{恵}{え} (Nakama Yukie)
+\end{itemize}
+In the examples above, the Kanji are provided with Ruby Text above them, with Latin character readings of the complete Kanji afterwards in parenthesis.
 
 \theendnotes

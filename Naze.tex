@@ -8,14 +8,20 @@
 % Note: to compile this project, you may need to do a full
 % install to TexLive (or a similar distribution).
 
-%\documentclass[11pt, a4paper, twoside]{report}
-\documentclass[paper=a4,fontsize=11pt]{report}	 	% KOMA-article class
-\usepackage[margin=1in]{geometry}					% Drop the size of the margins to 1 inch
-\textheight=700px								% Saving trees ;-) 
+\documentclass[11pt, a4paper, twoside]{report}	% KOMA-article class
+\usepackage[margin=1in]{geometry}				% Drop the size of the margins to 1 inch
+\textheight=700px								% Saving trees ;-)
+
+% Tell the LaTeX compiler that this file should be UTF-8
+\usepackage[utf8]{inputenc}
 
 % Including the package "epigraph" this will allow quotes to
 % be added at the begining of each chapter or section.
 \usepackage{epigraph}
+
+% Including the FancyHDR package will enable us to edit the
+% headers and footers when we use the \pagestyle{fancy} command
+\usepackage{fancyhdr}
 
 % Including the package "endnote" will force all footnotes to
 % be shown at the end of each chapter (or wherever the command
@@ -42,14 +48,29 @@
 % all links in the compiled document
 \usepackage[pdfstartview=Fit, hidelinks]{hyperref}
 
+% Command to create a full page dedication.
+% Taken from http://blog.humphd.org/vocamus-1406/
+% who got it from: http://www.tug.org/pipermail/texhax/2010-June/015184.html
+\newenvironment{dedication}  
+{  
+   %\cleardoublepage  
+   \thispagestyle{empty}  
+   \vspace*{\stretch{1}}  
+   \hfill\begin{minipage}[t]{0.66\textwidth}  
+   \raggedright  
+}%  
+{  
+   \end{minipage}  
+   \vspace*{\stretch{3}}  
+   \clearpage  
+}
+
 \begin{document}
 
 % Tell LaTeX that we'll be using Chinese, Japanese and Korean
 % characters in the following document and that it should be
 %prepared for them
-\begin{CJK}{UTF8}{min}								% Use the 明朝 (Mincho) font for Japanese text
-%\begin{CJK}{UTF8}{goth}							% Use the ゴシック Gothic font for Japanese text
-%\begin{CJK}{UTF8}{maru}							% Use the 丸ゴシック Maru Gothic font for Japanese text
+\begin{CJK}{UTF8}{min}				% Use the 明朝 (Mincho) font for Japanese text
 
 % The above font commands (along with the following command)
 % are adapted from the following URL:
@@ -60,16 +81,28 @@
 % making them easier to read
 \renewcommand\rubysep{-0.1ex}
 
+\pagestyle{empty}
+
+\begin{dedication}  
+This book is dedicated to my brother Mark, without whom life would be a boring place.
+\\It is also dedicated to the memory of a dear departed friend, Leigh. See you Space Cowboy
+\end{dedication}
+
+
 \title{Why Don't You Do Your Best?\\なぜベストを\ruby{尽}{つ}くさないのか}
 \author{Ueda Jiro (Original)\\Jamie Taylor (Translation)}
 \maketitle
 
+
+\pagenumbering{roman}
+
+
 % Inform TeX to parse the contents of each of the following
 % files (preface, notes, etc.), placing their contents
 % (sequentially) here
-\input{Preface}										% Legal stuff
-\input{ANote}										% Short note from the author
-\input{Translation}									% Contains the translation
+\input{Preface}						% Legal stuff
+\input{ANote}							% Short note from the author
+\input{Translation}					% Contains the translation
 
 
 % TODO: Add the contents of each chapter here
