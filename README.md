@@ -24,6 +24,10 @@ Jamie 'GaProgMan' Taylor
 
 I would recommend both the TexWorks and TexLive programs for compilation, as they are free and available for most Operating Systems.
 
+## Wiki Entry ##
+
+A more up to date description of this project can be found at GaProgMan's Wiki: http://wiki.gaprogman.com/index.php?title=NazeBesto
+
 ## Licence ##
 
 See "Licence.txt" for licence details
@@ -83,6 +87,6 @@ See "Licence.txt" for licence details
 
 2012-05-18 - Jamie Taylor
 - Initial creation of project
-- Preface.tex: Preface section written 
+- Preface.tex: Preface section written
 - ANote.tex: Translator's notes section written
 - Naze.tex: document layout created
